@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">AppCat</string>
+    <string name="life_span_label">life_spain_label</string>
+    <string name="temperament_label">temperament_laber</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="favorite">favorite</string>
 </resources>

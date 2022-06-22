@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1185" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/activity_details.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/activity_splash.xml" value="0.1796875" />
         <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/cat_list_item.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/details_fragment.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/favorite_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_coin_list.xml" value="0.1" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_details.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_favorites.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_home.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_item.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_item_list.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/layout/fragment_splach_.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/menu/navigation_menu.xml" value="0.1796875" />
+        <entry key="..\:/Users/hduartol/AndroidStudioProjects/AppCat/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1595" />
       </map>
     </option>
   </component>

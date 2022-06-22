@@ -8,7 +8,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.appcat.databinding.CatListItemBinding
 import com.squareup.picasso.Picasso
 
-class CatItemAdapter : ListAdapter<Cat, CatItemAdapter.CatItemViewHolder>(DIFF_CALLBACK) {
+class CatAdapter : ListAdapter<Cat, CatAdapter.CatItemViewHolder>(DIFF_CALLBACK) {
+
+    class CatItemViewHolder(
+        val binding: CatListItemBinding
+    ) : RecyclerView.ViewHolder(binding.root)
 
     // Chamado uma unica vez na criação da lista
     override fun onCreateViewHolder(
@@ -29,9 +33,7 @@ class CatItemAdapter : ListAdapter<Cat, CatItemAdapter.CatItemViewHolder>(DIFF_C
         holder.binding.textViewCat.text = item.name
     }
 
-    class CatItemViewHolder(
-        val binding: CatListItemBinding
-    ) : RecyclerView.ViewHolder(binding.root) companion object {
+    companion object {
         private val DIFF_CALLBACK = object : DiffUtil.ItemCallback<Cat>() {
             override fun areItemsTheSame(oldItem: Cat, newItem: Cat): Boolean {
                 return oldItem.name == newItem.name

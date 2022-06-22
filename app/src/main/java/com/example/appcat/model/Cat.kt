@@ -10,14 +10,16 @@ data class Cat(
     val url: String,
     val reference_image_id: String?,
     val name: String,
-    val description: String
+    val id: String,
+    val description: String,
+    val origin: String
 
 ) : Serializable {
 
-    fun getImage(): String {
+    fun getImage(): String? {
         return getImageUrl()
     }
-    private fun getImageUrl(): String {
+    private fun getImageUrl(): String? {
         return Constants.BASE_IMG_URL.plus("$reference_image_id.jpg")
     }
 }

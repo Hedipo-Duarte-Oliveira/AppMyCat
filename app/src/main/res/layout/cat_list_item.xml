@@ -10,13 +10,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/black">
+        android:layout_height="100dp"
+        android:background="@color/purple">
 
     <ImageView
         android:id="@+id/cat_img"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
         android:scaleType="centerCrop"
         android:src="@drawable/cat2"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:text="Cat"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@id/cat_img"
